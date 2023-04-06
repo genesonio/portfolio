@@ -1,5 +1,4 @@
 import Head from "next/head"
-import Script from "next/script"
 
 import { type NextPage } from "next"
 
@@ -12,10 +11,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Script src="particles.js" />
-
       <main>
-        <div id="particles-js" />
+        <div></div>
       </main>
     </>
   )
