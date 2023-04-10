@@ -35,10 +35,10 @@ git clone [https://github.com/genesonio/portfolio.git](https://github.com/geneso
 cd portfolio
 
 # Instalar as dependências
-npm install
+yarn
 
 # Iniciar o servidor local
-npm start
+yarn dev
 ```
 
 O site estará disponível em [http://localhost:3000/](http://localhost:3000/).
