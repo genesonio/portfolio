@@ -8,7 +8,7 @@ const Home = () => {
   const { classes } = useStyles()
 
   return (
-    <section id="home" className={classes.root}>
+    <section className={classes.root}>
       <Container className={classes.container}>
         <Grid className={classes.grid}>
           <Grid.Col className={classes.col} span={6}>
