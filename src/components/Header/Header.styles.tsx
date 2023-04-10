@@ -18,7 +18,11 @@ const useStyles = createStyles(theme => ({
   },
 
   logo: {
-    color: theme.colors.dark[2]
+    color: "#644c7a"
+  },
+
+  logoSpan: {
+    color: "#99ee6f"
   },
 
   links: {

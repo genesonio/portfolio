@@ -41,7 +41,10 @@ const HeaderResponsive = ({ links }: HeaderResponsiveProps) => {
   return (
     <Header height={HEADER_HEIGHT} className={classes.root}>
       <Container className={classes.header}>
-        <h1 className={classes.logo}>Genésio</h1>
+        <h1 className={classes.logo}>
+          <span className={classes.logoSpan}>&lt;</span>Genésio
+          <span className={classes.logoSpan}> /&gt;</span>
+        </h1>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>
