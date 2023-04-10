@@ -9,3 +9,24 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #666 #272727;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #272727;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 10px;
+}
