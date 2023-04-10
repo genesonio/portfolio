@@ -17,7 +17,8 @@ const useStyles = createStyles(theme => ({
   },
   col: {
     display: "flex",
-    alignItems: "center"
+    justifyContent: "center",
+    flexDirection: "column"
   },
   text: {
     color: theme.colors.dark[0],
@@ -31,6 +32,11 @@ const useStyles = createStyles(theme => ({
   },
   image: {
     objectFit: "contain"
+  },
+  icons: {
+    display: "flex",
+    justifyContent: "space-around",
+    height: rem(35)
   }
 }))
 
