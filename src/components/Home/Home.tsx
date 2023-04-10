@@ -31,7 +31,7 @@ const Home = () => {
               <br />
               Seu programador front-end apaixonado por criar soluções inovadoras
               e úteis!
-              <br /> Seja bem-vindo ao meu portfólio!
+              <br /> Seja bem-vindo ao meu mundo!
             </p>
             <div className={classes.icons}>
               <a
