@@ -1,6 +1,6 @@
 import { HeaderResponsive } from "@/components/Header"
 import ParticlesComponent from "@/components/Particles"
-import links from "@/links"
+import links from "@/utils/links"
 
 import { type NextPage } from "next"
 
