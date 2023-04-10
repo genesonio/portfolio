@@ -1,5 +1,5 @@
 import { HeaderResponsive } from "@/components/Header"
-import ParticlesComponent from "@/components/Particles"
+import { Background } from "@/components/Particles"
 import links from "@/utils/links"
 
 import { type NextPage } from "next"
@@ -7,7 +7,7 @@ import { type NextPage } from "next"
 const Home: NextPage = () => {
   return (
     <main>
-      <ParticlesComponent />
+      <Background />
       <HeaderResponsive links={links} />
 
       <section></section>
