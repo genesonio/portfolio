@@ -29,10 +29,10 @@ O projeto segue a seguinte estrutura de pastas:
 
 * `public/`: contém os arquivos públicos do site, como o arquivo HTML e imagens;
 * `src/`: contém os arquivos de código-fonte do projeto;
-    * `assets/`: contém arquivos de mídia, como imagens;
-    * `components/`: contém os componentes React utilizados na construção do site;
-    * `pages/`: contém as páginas React do site;
-    * `styles/`: contém os arquivos de estilos CSS do projeto.
+  * `components/`: contém os componentes React utilizados na construção do site;
+  * `pages/`: contém as páginas React do site;
+  * `styles/`: contém os arquivos de estilos CSS do projeto.
+  * `utils/`: contém os arquivos que são úteis para o projeto.
 
 ## Executando o projeto
 
