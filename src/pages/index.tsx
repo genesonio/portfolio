@@ -1,18 +1,21 @@
 import { HeaderResponsive } from "@/components/Header"
+import { Home } from "@/components/Home"
 import { Background } from "@/components/Particles"
+
 import links from "@/utils/links"
 
 import { type NextPage } from "next"
 
-const Home: NextPage = () => {
+const Index: NextPage = () => {
   return (
-    <main>
+    <>
       <Background />
       <HeaderResponsive links={links} />
-
-      <section></section>
-    </main>
+      <main>
+        <Home />
+      </main>
+    </>
   )
 }
 
-export default Home
+export default Index
