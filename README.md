@@ -10,6 +10,8 @@ Este projeto é um site de portfólio criado para exibir os projetos de Genésio
 * CSS3
 * JavaScript
 * ReactJS
+* NextJS
+* TSParticles
 * Mantine
 
 ## Lista de implementações
@@ -53,3 +55,8 @@ yarn dev
 ```
 
 O site estará disponível em [http://localhost:3000/](http://localhost:3000/).
+
+
+### Boilerplate
+
+[T3-App](https://create.t3.gg/).
