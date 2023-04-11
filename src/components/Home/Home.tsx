@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import { Container, Grid, Space } from "@mantine/core"
+import { Container, Grid, Space, Text } from "@mantine/core"
 
 import {
   IconBrandNextjs,
@@ -28,13 +28,17 @@ const Home = () => {
       <Container className={classes.container}>
         <Grid className={classes.grid}>
           <Grid.Col className={classes.col} span={6}>
-            <p className={classes.text}>
+            <Text className={classes.text}>
               Olá! Sou Genésio da Silva Pacheco.
-              <Space h="xs" />
+            </Text>
+            <Space h="xs" />
+            <Text className={classes.text}>
               Seu programador front-end apaixonado por criar soluções inovadoras
               e úteis!
-              <Space h="xs" /> Seja bem-vindo ao meu mundo!
-            </p>
+            </Text>
+            <Space h="xs" />
+            <Text className={classes.text}>Seja bem-vindo ao meu mundo!</Text>
+
             <div className={classes.icons}>
               <a
                 href="http://www.linkedin.com/in/genesonio/"
