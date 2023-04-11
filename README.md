@@ -19,7 +19,7 @@ Este projeto é um site de portfólio criado para exibir os projetos de Genésio
 * [x] Fazer o background animado
 * [x] Fazer o header
 * [x] Fazer a section home
-* [ ] Fazer a section projetos
+* [x] Fazer a section projetos
 * [ ] Fazer a section sobre
 * [ ] Fazer a section contato
 * [ ] Fazer o footer
@@ -55,7 +55,6 @@ yarn dev
 ```
 
 O site estará disponível em [http://localhost:3000/](http://localhost:3000/).
-
 
 ### Boilerplate
 
