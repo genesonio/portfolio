@@ -28,8 +28,7 @@ const HeaderResponsive = ({ links }: HeaderResponsiveProps) => {
       className={cx(classes.link, {
         [classes.linkActive]: active === link.label
       })}
-      onClick={event => {
-        event.preventDefault()
+      onClick={() => {
         setActive(link.label)
         close()
       }}
