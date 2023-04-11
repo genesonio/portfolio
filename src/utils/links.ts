@@ -5,15 +5,15 @@ const links = [
     "label": "Home"
   },
   {
-    "link": "#",
+    "link": "#projects",
     "label": "Projetos"
   },
   {
-    "link": "#",
+    "link": "#about",
     "label": "Sobre"
   },
   {
-    "link": "#",
+    "link": "#contact",
     "label": "Contato"
   }
 ]
