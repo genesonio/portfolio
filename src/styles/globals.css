@@ -15,6 +15,7 @@ body {
 * {
   scrollbar-width: thin;
   scrollbar-color: #666 #272727;
+  scroll-behavior: smooth;
 }
 
 /* Chrome, Edge, and Safari */
