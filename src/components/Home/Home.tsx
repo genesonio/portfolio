@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import { Container, Grid } from "@mantine/core"
+import { Container, Grid, Space } from "@mantine/core"
 
 import {
   IconBrandNextjs,
@@ -18,6 +18,8 @@ import {
 
 import useStyles from "./Home.styles"
 
+import octocat from "@/assets/octocat.gif"
+
 const Home = () => {
   const { classes } = useStyles()
 
@@ -27,11 +29,11 @@ const Home = () => {
         <Grid className={classes.grid}>
           <Grid.Col className={classes.col} span={6}>
             <p className={classes.text}>
-              Olá! Sou Genésio da Silva Pacheco
-              <br />
+              Olá! Sou Genésio da Silva Pacheco.
+              <Space h="xs" />
               Seu programador front-end apaixonado por criar soluções inovadoras
               e úteis!
-              <br /> Seja bem-vindo ao meu mundo!
+              <Space h="xs" /> Seja bem-vindo ao meu mundo!
             </p>
             <div className={classes.icons}>
               <a
@@ -63,7 +65,7 @@ const Home = () => {
           </Grid.Col>
           <Grid.Col className={classes.col} span={6}>
             <div className={classes.imageWrapper}>
-              <Image fill className={classes.image} src="/octocat.gif" alt="" />
+              <Image fill className={classes.image} src={octocat} alt="" />
             </div>
           </Grid.Col>
         </Grid>
