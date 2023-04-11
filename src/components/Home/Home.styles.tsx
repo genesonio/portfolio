@@ -5,9 +5,7 @@ export const HEADER_HEIGHT: string = rem(60)
 const useStyles = createStyles(theme => ({
   root: {
     position: "relative",
-    height: "100vh",
-    top: `-${HEADER_HEIGHT}`,
-    paddingTop: HEADER_HEIGHT
+    height: "90vh"
   },
   container: {
     height: "100%"
