@@ -5,7 +5,9 @@ const useStyles = createStyles(theme => ({
     height: "100vh",
     paddingTop: "10vh"
   },
-  container: {},
+  span: {
+    color: "#99ee6f"
+  },
   image: {
     objectFit: "contain"
   },
@@ -39,6 +41,11 @@ const useStyles = createStyles(theme => ({
   link: {
     textDecoration: "none",
     color: theme.colors.dark[0]
+  },
+  title: {
+    color: theme.colors.dark[0],
+    textAlign: "center",
+    zIndex: 1
   }
 }))
 

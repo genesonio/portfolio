@@ -3,7 +3,6 @@ import {
   Container,
   Flex,
   Group,
-  Paper,
   Space,
   Stack,
   Text,
@@ -16,7 +15,6 @@ import orso from "@/assets/orsoferr_thumb.png"
 import {
   IconBrandAmazon,
   IconBrandCss3,
-  IconBrandGithub,
   IconBrandNextjs,
   IconBrandPlanetscale,
   IconBrandPrisma,
@@ -30,8 +28,13 @@ const Projects = () => {
   const { classes } = useStyles()
   return (
     <section className={classes.root} id="projects">
-      <Container className={classes.container}>
+      <Container>
         <Stack spacing={45}>
+          <Title className={classes.title}>
+            <span className={classes.span}>&lt;</span>
+            Projetos
+            <span className={classes.span}>&gt;</span>
+          </Title>
           <Flex className={classes.card}>
             <div className={classes.imageWrapper}>
               <Image className={classes.image} fill src={urugaru} alt="" />
@@ -120,6 +123,11 @@ const Projects = () => {
               </Group>
             </Flex>
           </Flex>
+          <Title className={classes.title}>
+            <span className={classes.span}>&lt;/</span>
+            Projetos
+            <span className={classes.span}>&gt;</span>
+          </Title>
         </Stack>
       </Container>
     </section>
