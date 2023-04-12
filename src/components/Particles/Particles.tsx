@@ -5,6 +5,7 @@ import { loadFull } from "tsparticles"
 import Particles from "react-tsparticles"
 
 import type { ISourceOptions, Engine } from "tsparticles-engine"
+import useStyles from "./Particles.styles"
 
 const ParticleBackground = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
@@ -126,12 +127,15 @@ const ParticleBackground = () => {
     }
   }
 
+  const { classes } = useStyles()
+
   return (
     <Particles
       init={particlesInit}
       options={options}
       height="100vh"
       width="100vw"
+      className={classes.particles}
     />
   )
 }
