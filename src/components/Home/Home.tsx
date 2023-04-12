@@ -30,15 +30,13 @@ const Home = () => {
           <Grid.Col className={classes.col} span={6}>
             <Text className={classes.text}>
               Olá! Sou Genésio da Silva Pacheco.
-            </Text>
-            <Space h="xs" />
-            <Text className={classes.text}>
+              <br />
               Seu programador front-end apaixonado por criar soluções inovadoras
               e úteis!
+              <br />
+              Seja bem-vindo ao meu mundo!
             </Text>
-            <Space h="xs" />
-            <Text className={classes.text}>Seja bem-vindo ao meu mundo!</Text>
-
+            <Space h="xl" />
             <div className={classes.icons}>
               <a
                 href="http://www.linkedin.com/in/genesonio/"
