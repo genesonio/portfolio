@@ -9,8 +9,8 @@ const links = [
     "label": "Projetos"
   },
   {
-    "link": "#about",
-    "label": "Sobre"
+    "link": "#bio",
+    "label": "Bio"
   },
   {
     "link": "#contact",

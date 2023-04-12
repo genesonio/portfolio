@@ -12,11 +12,11 @@ import {
 
 import { Tech } from "@/components/Tech"
 
-import useStyles from "./About.style"
+import useStyles from "./Bio.style"
 import me from "@/assets/me.jpg"
 import { Properties } from "../Properties"
 
-const About = () => {
+const Bio = () => {
   const { classes } = useStyles()
 
   const idade = () => {
@@ -29,11 +29,11 @@ const About = () => {
   }
 
   return (
-    <section id="about" className={classes.root}>
+    <section id="bio" className={classes.root}>
       <Container>
         <Title className={classes.title}>
           <span className={classes.span}>&lt;</span>
-          Sobre
+          Bio
         </Title>
         <Stack className={classes.indent} spacing="xl">
           <Properties title="Imagem">
@@ -90,4 +90,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Bio
