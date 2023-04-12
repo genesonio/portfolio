@@ -1,3 +1,4 @@
+import { About } from "@/components/About"
 import { HeaderResponsive } from "@/components/Header"
 import { Home } from "@/components/Home"
 import { Background } from "@/components/Particles"
@@ -10,11 +11,12 @@ import { type NextPage } from "next"
 const Index: NextPage = () => {
   return (
     <>
-      <Background />
-      <HeaderResponsive links={links} />
       <main>
+        <Background />
+        <HeaderResponsive links={links} />
         <Home />
         <Projects />
+        <About />
       </main>
     </>
   )
