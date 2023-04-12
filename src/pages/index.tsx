@@ -1,4 +1,5 @@
 import { Bio } from "@/components/Bio"
+import { Contact } from "@/components/Contact"
 import { HeaderResponsive } from "@/components/Header"
 import { Home } from "@/components/Home"
 import { Background } from "@/components/Particles"
@@ -17,6 +18,7 @@ const Index: NextPage = () => {
         <Home />
         <Projects />
         <Bio />
+        <Contact />
       </main>
     </>
   )
