@@ -10,27 +10,23 @@ const useStyles = createStyles(theme => ({
     color: "#99ee6f"
   },
   image: {
-    objectFit: "contain"
+    objectFit: "cover",
+    borderRadius: rem(15)
   },
   imageWrapper: {
+    alignSelf: "center",
     position: "relative",
-    width: rem(430)
+    width: "50%",
+    height: rem(225)
   },
   card: {
-    paddingBlock: rem(25),
-    paddingInline: rem(10),
+    padding: rem(18),
 
-    height: rem(300),
+    minHeight: rem(300),
+    columnGap: rem(24),
 
-    columnGap: rem(20),
-
-    background: "rgba(255, 255, 255, 0.1)",
-    boxShadow: "rgba(0, 0, 0, 0.3) 0px 0px 25px 5px",
-    backdropFilter: "blur(2px)",
-    WebkitBackdropFilter: "blur(2px)",
-
-    borderRadius: "15px",
-    border: "1px solid rgba(255, 255, 255, 0.1)"
+    boxShadow: "inset rgba(0, 0, 0, 0.3) 0px 0px 15px 5px",
+    borderRadius: "15px"
   },
   info: {
     flexDirection: "column",
