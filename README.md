@@ -20,7 +20,7 @@ Este projeto é um site de portfólio criado para exibir os projetos de Genésio
 * [x] Fazer o header
 * [x] Fazer a section home
 * [x] Fazer a section projetos
-* [ ] Fazer a section sobre
+* [X] Fazer a section bio
 * [ ] Fazer a section contato
 * [ ] Fazer o footer
 * [ ] Continuar melhorando o projeto...
