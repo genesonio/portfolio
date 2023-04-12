@@ -26,11 +26,9 @@ const useStyles = createStyles(theme => ({
     borderRadius: rem(45),
     animation: `${shadow} 1.5s ease-in-out infinite alternate`
   },
-  properties: {
-    color: theme.colors.dark[0],
-    paddingLeft: "15%",
-    alignItems: "center",
-    columnGap: rem(80)
+
+  indent: {
+    paddingLeft: "15%"
   }
 }))
 
