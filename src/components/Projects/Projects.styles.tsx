@@ -2,7 +2,8 @@ import { createStyles, rem } from "@mantine/core"
 
 const useStyles = createStyles(theme => ({
   root: {
-    height: "100vh",
+    minHeight: "90vh",
+    height: "max-content",
     paddingTop: "10vh"
   },
   span: {
@@ -44,8 +45,7 @@ const useStyles = createStyles(theme => ({
   },
   title: {
     color: theme.colors.dark[0],
-    textAlign: "center",
-    zIndex: 1
+    textAlign: "center"
   }
 }))
 
