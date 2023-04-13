@@ -5,8 +5,10 @@ export const HEADER_HEIGHT: string = rem(60)
 const useStyles = createStyles(theme => ({
   root: {
     position: "relative",
-    minHeight: "90vh",
-    height: "min-content"
+    height: "90vh",
+    [theme.fn.smallerThan("md")]: {
+      height: "min-content"
+    }
   },
   container: {
     height: "100%"
@@ -24,11 +26,11 @@ const useStyles = createStyles(theme => ({
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
-    minHeight: "fit-content",
-    minWidth: "fit-content",
 
     [theme.fn.smallerThan("md")]: {
-      margin: "auto"
+      minHeight: "fit-content",
+      margin: "auto",
+      minWidth: "fit-content"
     }
   },
   text: {

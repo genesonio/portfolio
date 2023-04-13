@@ -1,17 +1,18 @@
 import { createStyles, rem } from "@mantine/core"
 
-export const FOOTER_HEIGHT: string = rem(60)
+export const FOOTER_HEIGHT: string = rem(80)
 
 const useStyles = createStyles(theme => ({
   footer: {
-    height: FOOTER_HEIGHT
-  },
-  inner: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
+    height: FOOTER_HEIGHT,
     backgroundColor: "rgba(49, 56, 77, 0.5)",
     borderColor: "rgba(49, 56, 77, 0.5)"
+  },
+  inner: {
+    height: FOOTER_HEIGHT,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between"
   },
   logo: {
     color: theme.colors.dark[0]
