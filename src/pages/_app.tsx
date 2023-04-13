@@ -5,6 +5,7 @@ import { MantineProvider } from "@mantine/core"
 import { type AppType } from "next/dist/shared/lib/utils"
 
 import "@/styles/globals.css"
+import theme from "@/utils/theme"
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
@@ -22,7 +23,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <MantineProvider withGlobalStyles withNormalizeCSS>
+      <MantineProvider theme={theme} withGlobalStyles withNormalizeCSS>
         <Component {...pageProps} />
       </MantineProvider>
     </>
