@@ -62,22 +62,58 @@ const Bio = () => {
           <Properties title="Experiência">
             <Group>
               <Tech tech="JavaScript" date={new Date(2022, 3, 25)}>
-                <IconBrandJavascript color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandJavascript
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
               </Tech>
               <Tech tech="ReactJS" date={new Date(2022, 4, 20)}>
-                <IconBrandReact color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandReact
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
               </Tech>
               <Tech tech="TailwindCSS" date={new Date(2022, 4, 20)}>
-                <IconBrandTailwind color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandTailwind
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
               </Tech>
               <Tech tech="TypeScript" date={new Date(2022, 5, 23)}>
-                <IconBrandTypescript color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandTypescript
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
               </Tech>
               <Tech tech="NextJS" date={new Date(2022, 11, 23)}>
-                <IconBrandNextjs color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandNextjs
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
               </Tech>
               <Tech tech="Mantine" date={new Date(2023, 1, 14)}>
-                <IconBrandMantine color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandMantine
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
               </Tech>
             </Group>
           </Properties>

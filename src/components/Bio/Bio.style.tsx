@@ -11,7 +11,7 @@ const useStyles = createStyles(theme => ({
     paddingTop: "10vh"
   },
   span: {
-    color: "#99ee6f"
+    color: theme.colors.dark[1]
   },
   title: {
     color: theme.colors.dark[0]

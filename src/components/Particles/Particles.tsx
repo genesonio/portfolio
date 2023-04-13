@@ -23,7 +23,7 @@ const ParticleBackground = () => {
         }
       },
       color: {
-        value: "#696969"
+        value: "#E4F0FB"
       },
       shape: {
         type: "circle",
@@ -123,7 +123,7 @@ const ParticleBackground = () => {
     },
     retina_detect: true,
     background: {
-      color: "#272727"
+      color: "#1B1E28"
     }
   }
 

@@ -7,7 +7,7 @@ const useStyles = createStyles(theme => ({
     paddingTop: "10vh"
   },
   span: {
-    color: "#99ee6f"
+    color: theme.colors.dark[1]
   },
   image: {
     objectFit: "cover",
@@ -32,12 +32,12 @@ const useStyles = createStyles(theme => ({
     flexDirection: "column",
     maxWidth: "50%",
     textAlign: "center",
-    color: theme.colors.dark[0],
+    color: theme.colors.dark[3],
     textDecoration: "none"
   },
   link: {
     textDecoration: "none",
-    color: theme.colors.dark[0]
+    color: theme.colors.dark[2]
   },
   title: {
     color: theme.colors.dark[0],

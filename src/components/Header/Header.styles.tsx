@@ -4,8 +4,8 @@ export const HEADER_HEIGHT: string = rem(60)
 
 const useStyles = createStyles(theme => ({
   root: {
-    backgroundColor: "rgba(0, 0, 0, 0.5)",
-    borderColor: "rgba(0, 0, 0, 0.5)",
+    backgroundColor: "rgba(49, 56, 77, 0.5)",
+    borderColor: "rgba(49, 56, 77, 0.5)",
     position: "relative",
     zIndex: 1
   },
@@ -18,11 +18,11 @@ const useStyles = createStyles(theme => ({
   },
 
   logo: {
-    color: "#644c7a"
+    color: theme.colors.dark[0]
   },
 
   logoSpan: {
-    color: "#99ee6f"
+    color: theme.colors.dark[1]
   },
 
   links: {
@@ -70,7 +70,7 @@ const useStyles = createStyles(theme => ({
     zIndex: 0,
     borderTopRightRadius: 0,
     borderTopLeftRadius: 0,
-    backgroundColor: "rgba(0, 0, 0, 0.5)",
+    backgroundColor: "rgba(49, 56, 77, 0.5)",
     overflow: "hidden",
 
     [theme.fn.largerThan("sm")]: {

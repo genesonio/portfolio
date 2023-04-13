@@ -50,14 +50,62 @@ const Projects = () => {
               </Text>
               <Space h="md" />
               <Group position="center">
-                <IconBrandNextjs color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandTypescript color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandCss3 color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandPrisma color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandPlanetscale color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandAmazon color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandStripe color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandVercel color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandNextjs
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandTypescript
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandCss3
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandPrisma
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandPlanetscale
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandAmazon
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandStripe
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandVercel
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
               </Group>
               <Space h="md" />
               <Group position="center">
@@ -95,12 +143,48 @@ const Projects = () => {
               </Text>
               <Space h="md" />
               <Group position="center">
-                <IconBrandNextjs color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandTypescript color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandTailwind color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandPlanetscale color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandPrisma color="#C1C2C5" size={36} stroke={1.2} />
-                <IconBrandVercel color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandNextjs
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandTypescript
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandTailwind
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandPlanetscale
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandPrisma
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
+                <IconBrandVercel
+                  color="#E4F0FB"
+                  size={36}
+                  stroke={1.2}
+                  onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                  onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+                />
               </Group>
               <Space h="md" />
               <Group position="center">

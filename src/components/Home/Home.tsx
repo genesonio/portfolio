@@ -43,26 +43,74 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <IconBrandLinkedin color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandLinkedin color="#91B4D5" size={36} stroke={1.2} />
               </a>
               <a
                 href="http://github.com/genesonio/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <IconBrandGithub color="#C1C2C5" size={36} stroke={1.2} />
+                <IconBrandGithub color="#91B4D5" size={36} stroke={1.2} />
               </a>
 
-              <IconMinusVertical color="#C1C2C5" size={36} stroke={1.2} />
+              <IconMinusVertical color="#E4F0FB" size={36} stroke={1.2} />
 
-              <IconBrandTypescript color="#C1C2C5" size={36} stroke={1.2} />
-              <IconBrandNextjs color="#C1C2C5" size={36} stroke={1.2} />
-              <IconBrandReact color="#C1C2C5" size={36} stroke={1.2} />
-              <IconBrandMantine color="#C1C2C5" size={36} stroke={1.2} />
-              <IconBrandPrisma color="#C1C2C5" size={36} stroke={1.2} />
-              <IconBrandTailwind color="#C1C2C5" size={36} stroke={1.2} />
-              <IconBrandGit color="#C1C2C5" size={36} stroke={1.2} />
-              <IconBrandVercel color="#C1C2C5" size={36} stroke={1.2} />
+              <IconBrandTypescript
+                color="#E4F0FB"
+                size={36}
+                stroke={1.2}
+                onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+              />
+              <IconBrandNextjs
+                color="#E4F0FB"
+                size={36}
+                stroke={1.2}
+                onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+              />
+              <IconBrandReact
+                color="#E4F0FB"
+                size={36}
+                stroke={1.2}
+                onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+              />
+              <IconBrandMantine
+                color="#E4F0FB"
+                size={36}
+                stroke={1.2}
+                onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+              />
+              <IconBrandPrisma
+                color="#E4F0FB"
+                size={36}
+                stroke={1.2}
+                onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+              />
+              <IconBrandTailwind
+                color="#E4F0FB"
+                size={36}
+                stroke={1.2}
+                onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+              />
+              <IconBrandGit
+                color="#E4F0FB"
+                size={36}
+                stroke={1.2}
+                onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+              />
+              <IconBrandVercel
+                color="#E4F0FB"
+                size={36}
+                stroke={1.2}
+                onMouseEnter={e => (e.currentTarget.style.stroke = "#ADD7FF")}
+                onMouseLeave={e => (e.currentTarget.style.stroke = "#E4F0FB")}
+              />
             </div>
           </Grid.Col>
           <Grid.Col className={classes.col} span={6}>

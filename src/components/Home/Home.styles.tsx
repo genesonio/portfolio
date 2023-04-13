@@ -19,7 +19,7 @@ const useStyles = createStyles(theme => ({
     flexDirection: "column"
   },
   text: {
-    color: theme.colors.dark[0],
+    color: theme.colors.dark[3],
     fontSize: rem(25),
     textAlign: "center"
   },

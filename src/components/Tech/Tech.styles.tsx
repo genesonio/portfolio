@@ -2,7 +2,7 @@ import { createStyles, rem } from "@mantine/core"
 
 const useStyles = createStyles(theme => ({
   tech: {
-    color: theme.colors.dark[0],
+    color: theme.colors.dark[3],
     alignItems: "center"
   },
   info: {
