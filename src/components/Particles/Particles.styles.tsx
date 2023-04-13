@@ -1,9 +1,11 @@
-import { createStyles, rem } from "@mantine/core"
+import { createStyles } from "@mantine/core"
 
-const useStyles = createStyles(theme => ({
+const useStyles = createStyles(() => ({
   particles: {
     position: "absolute",
-    zIndex: -1
+    zIndex: -1,
+    height: "100vh",
+    width: "100vw"
   }
 }))
 

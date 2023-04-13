@@ -133,8 +133,6 @@ const ParticleBackground = () => {
     <Particles
       init={particlesInit}
       options={options}
-      height="100vh"
-      width="100vw"
       className={classes.particles}
     />
   )
