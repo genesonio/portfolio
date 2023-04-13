@@ -14,10 +14,12 @@ const Properties = ({ title, children }: IProperties) => {
 
   return (
     <Grid className={classes.properties}>
-      <Grid.Col span={3}>
-        <Title size="h2">{title}</Title>
+      <Grid.Col span={5}>
+        <Title className={classes.title} size="h2">
+          {title}
+        </Title>
       </Grid.Col>
-      <Grid.Col span={9}>{children}</Grid.Col>
+      <Grid.Col span="auto">{children}</Grid.Col>
     </Grid>
   )
 }

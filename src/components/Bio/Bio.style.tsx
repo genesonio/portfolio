@@ -19,16 +19,28 @@ const useStyles = createStyles(theme => ({
   wrapper: {
     width: rem(180),
     height: rem(180),
-    position: "relative"
+    position: "relative",
+    [theme.fn.smallerThan("md")]: {
+      width: rem(120),
+      height: rem(120),
+      margin: "auto",
+      left: "90%"
+    }
   },
   image: {
     objectFit: "cover",
     borderRadius: rem(45),
-    animation: `${shadow} 1.5s ease-in-out infinite alternate`
+    animation: `${shadow} 1.5s ease-in-out infinite alternate`,
+    [theme.fn.smallerThan("md")]: {
+      borderRadius: rem(20)
+    }
   },
 
   indent: {
-    paddingLeft: "15%"
+    paddingLeft: "15%",
+    [theme.fn.smallerThan("md")]: {
+      paddingLeft: "5%"
+    }
   }
 }))
 
