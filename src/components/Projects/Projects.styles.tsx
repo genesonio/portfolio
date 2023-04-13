@@ -17,7 +17,12 @@ const useStyles = createStyles(theme => ({
     alignSelf: "center",
     position: "relative",
     width: "50%",
-    height: rem(225)
+    height: rem(225),
+
+    [theme.fn.smallerThan("md")]: {
+      width: "95%",
+      height: rem(170)
+    }
   },
   card: {
     padding: rem(18),
@@ -26,14 +31,23 @@ const useStyles = createStyles(theme => ({
     columnGap: rem(24),
 
     boxShadow: "inset rgba(0, 0, 0, 0.3) 0px 0px 15px 5px",
-    borderRadius: "15px"
+    borderRadius: "15px",
+
+    [theme.fn.smallerThan("md")]: {
+      flexDirection: "column"
+    }
   },
   info: {
     flexDirection: "column",
     maxWidth: "50%",
     textAlign: "center",
     color: theme.colors.dark[3],
-    textDecoration: "none"
+    textDecoration: "none",
+
+    [theme.fn.smallerThan("md")]: {
+      maxWidth: "95%",
+      marginBlock: rem(12)
+    }
   },
   link: {
     textDecoration: "none",
