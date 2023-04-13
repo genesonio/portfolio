@@ -4,8 +4,8 @@ const useStyles = createStyles(() => ({
   particles: {
     position: "absolute",
     zIndex: -1,
-    height: "100vh",
-    width: "100vw"
+    height: "99vh",
+    width: "99vw"
   }
 }))
 
