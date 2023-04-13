@@ -43,10 +43,8 @@ const Projects = () => {
               <Title>uruGaru</Title>
               <Space h="md" />
               <Text>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatem saepe quibusdam recusandae molestiae vel, itaque in
-                eos? Quis obcaecati, neque nobis at quisquam ipsum quibusdam
-                accusantium, aspernatur placeat laudantium sequi.
+                O site urugaru.com é o portfólio da ilustradora brasileira Garu,
+                apresentando seus trabalhos e informações sobre sua carreira.
               </Text>
               <Space h="md" />
               <Group position="center">
@@ -136,10 +134,12 @@ const Projects = () => {
               <Title>Orso Ferramentas</Title>
               <Space h="md" />
               <Text>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatem saepe quibusdam recusandae molestiae vel, itaque in
-                eos? Quis obcaecati, neque nobis at quisquam ipsum quibusdam
-                accusantium, aspernatur placeat laudantium sequi.
+                A empresa Orso Ferramentas oferece uma ampla variedade de
+                ferramentas automotivas de alta qualidade, tanto para uso
+                profissional quanto caseiro. Sua missão é fornecer ferramentas
+                especiais com qualidade e confiabilidade, superando as
+                expectativas dos clientes, e oferece suporte técnico e
+                atendimento excepcional para garantir a satisfação dos clientes.
               </Text>
               <Space h="md" />
               <Group position="center">
