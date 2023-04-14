@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 import { Container, Stack, Title, Text, Group } from "@mantine/core"
 import {
@@ -37,8 +37,15 @@ const Bio = () => {
         </Title>
         <Stack className={classes.indent} spacing="xl">
           <Properties title="Imagem">
-            <div className={classes.wrapper}>
-              <Image fill className={classes.image} src={me} alt="" />
+            <div id="wrapper" className={classes.wrapper}>
+              <Image
+                priority
+                //objectFit="contain"
+                className={classes.image}
+                src={me}
+                placeholder="blur"
+                alt="Foto do Genésio, está com um corte de cabelo baixo e uma barba grande"
+              />
             </div>
           </Properties>
           <Properties title="Nome">

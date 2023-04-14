@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 import { Container, Grid, Space, Text } from "@mantine/core"
 
@@ -115,7 +115,7 @@ const Home = () => {
           </Grid.Col>
           <Grid.Col className={classes.col} span={6}>
             <div className={classes.imageWrapper}>
-              <Image fill className={classes.image} src={octocat} alt="" />
+              <Image className={classes.image} src={octocat} alt="" />
             </div>
           </Grid.Col>
         </Grid>

@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import {
   Container,
   Flex,
@@ -37,7 +37,7 @@ const Projects = () => {
           </Title>
           <Flex className={classes.card}>
             <div className={classes.imageWrapper}>
-              <Image className={classes.image} fill src={urugaru} alt="" />
+              <Image className={classes.image} src={urugaru} alt="" />
             </div>
             <Flex className={classes.info}>
               <Title>uruGaru</Title>
@@ -128,7 +128,7 @@ const Projects = () => {
           </Flex>
           <Flex className={classes.card}>
             <div className={classes.imageWrapper}>
-              <Image className={classes.image} fill src={orso} alt="" />
+              <Image className={classes.image} src={orso} alt="" />
             </div>
             <Flex className={classes.info}>
               <Title>Orso Ferramentas</Title>
