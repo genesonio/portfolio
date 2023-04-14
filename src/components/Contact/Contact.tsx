@@ -50,7 +50,10 @@ const Contact = () => {
                   formData,
                   env.NEXT_PUBLIC_EMAILJS
                 )
-                .then(res => console.log("SUCCESS!!", res.status, res.text))
+                .then(res => {
+                  form.reset()
+                  console.log("SUCCESS!!", res.status, res.text)
+                })
                 .catch(err => console.error("FAILED...", err))
             })}
           >

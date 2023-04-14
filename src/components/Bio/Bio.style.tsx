@@ -1,8 +1,8 @@
 import { createStyles, keyframes, rem } from "@mantine/core"
 
 export const shadow = keyframes({
-  "0%": { boxShadow: "0 0 10px 0 rgba(69, 69, 69, 0.2 )" },
-  "100%": { boxShadow: "0 0 20px 0 rgba( 69, 69, 69, 69.35 )" }
+  "0%": { boxShadow: "0 0 10px 5px rgba(69, 69, 69, 0.2 )" },
+  "100%": { boxShadow: "0 0 20px 5px rgba( 69, 69, 69, 69.35 )" }
 })
 
 const useStyles = createStyles(theme => ({
@@ -20,17 +20,19 @@ const useStyles = createStyles(theme => ({
     width: rem(180),
     height: rem(180),
     position: "relative",
+    borderRadius: rem(45),
+    animation: `${shadow} 1.5s ease-in-out infinite alternate`,
     [theme.fn.smallerThan("md")]: {
       width: rem(120),
       height: rem(120),
       margin: "auto",
-      left: "90%"
+      left: "90%",
+      borderRadius: rem(20)
     }
   },
   image: {
     objectFit: "cover",
     borderRadius: rem(45),
-    animation: `${shadow} 1.5s ease-in-out infinite alternate`,
     [theme.fn.smallerThan("md")]: {
       borderRadius: rem(20)
     }

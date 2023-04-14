@@ -40,7 +40,6 @@ const Bio = () => {
             <div id="wrapper" className={classes.wrapper}>
               <Image
                 priority
-                //objectFit="contain"
                 className={classes.image}
                 src={me}
                 placeholder="blur"

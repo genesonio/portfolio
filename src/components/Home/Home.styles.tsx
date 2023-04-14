@@ -1,11 +1,12 @@
 import { createStyles, rem } from "@mantine/core"
 
-export const HEADER_HEIGHT: string = rem(60)
+export const HEADER_HEIGHT: string = rem(80)
 
 const useStyles = createStyles(theme => ({
   root: {
     position: "relative",
     height: "90vh",
+    paddingTop: rem(24),
     [theme.fn.smallerThan("md")]: {
       height: "min-content"
     }
@@ -47,8 +48,14 @@ const useStyles = createStyles(theme => ({
     width: "100%",
     height: "70%",
     [theme.fn.smallerThan("md")]: {
-      width: "80vw",
-      height: "50vh"
+      width: "60%",
+      height: "50%",
+      margin: "auto"
+    },
+    [theme.fn.smallerThan("sm")]: {
+      width: "90vw",
+      height: "50vh",
+      margin: "auto"
     }
   },
   image: {

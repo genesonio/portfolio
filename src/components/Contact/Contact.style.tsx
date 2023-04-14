@@ -3,7 +3,7 @@ import { createStyles } from "@mantine/core"
 const useStyles = createStyles(theme => ({
   root: {
     minHeight: "100vh",
-    paddingTop: "10vh"
+    paddingBlock: '10vh'
   },
   span: {
     color: theme.colors.dark[1]
