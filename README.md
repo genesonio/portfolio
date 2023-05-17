@@ -23,7 +23,7 @@ Este projeto é um site de portfólio criado para exibir os projetos de Genésio
 * [X] Fazer a section bio
 * [X] Fazer a section contato
 * [X] Fazer o footer
-* [ ] Continuar melhorando o projeto...
+* [X] Continuar melhorando o projeto...
 
 ## Estrutura do projeto
 
