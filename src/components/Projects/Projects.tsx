@@ -1,13 +1,5 @@
 import Image from "next/legacy/image"
-import {
-  Container,
-  Flex,
-  Group,
-  Space,
-  Stack,
-  Text,
-  Title
-} from "@mantine/core"
+import {Container, Flex, Group, Space, Stack, Text, Title} from "@mantine/core"
 
 import useStyles from "./Projects.styles"
 import urugaru from "@/assets/urugaru_thumb.png"
@@ -25,7 +17,7 @@ import {
 } from "@tabler/icons-react"
 
 const Projects = () => {
-  const { classes } = useStyles()
+  const {classes} = useStyles()
   return (
     <section className={classes.root} id="projects">
       <Container>
@@ -37,7 +29,11 @@ const Projects = () => {
           </Title>
           <Flex className={classes.card}>
             <div className={classes.imageWrapper}>
-              <Image className={classes.image} src={urugaru} alt="" />
+              <Image
+                className={classes.image}
+                src={urugaru}
+                alt="Print tirado da home, também pode ser chamado de galeria, do site urugaru.com, o mesmo está exibindo como logo seu nome, logo abaixo está o menu contendo as opções gallery, bio, shop e contact, no canto superior direito é possível ver a sacola de compras indicando que não tem item dentro, no restante do que é visualizado como sendo a galeria ou home, mostram 4 imagens dos desenhos da autora com seus respectivos títulos abaixo das imagens, por fim um pequeno footer apenas mostrando o Instagram"
+              />
             </div>
             <Flex className={classes.info}>
               <Title>uruGaru</Title>
@@ -128,7 +124,11 @@ const Projects = () => {
           </Flex>
           <Flex className={classes.card}>
             <div className={classes.imageWrapper}>
-              <Image className={classes.image} src={orso} alt="" />
+              <Image
+                className={classes.image}
+                src={orso}
+                alt="Um print do site orsoferramentas.com.br, no header podemos ver a esquerda a logo vermelha da empresa e a direita as opções do menu sendo elas, home, sobre, contato e o catálogo que está desabilitado, ocupando a maior parte da tela temos um carrousel com uma imagem fixa com um texto de ação, abaixo vemos várias logos das empresas que a empresa orso ferramentas trabalha."
+              />
             </div>
             <Flex className={classes.info}>
               <Title>Orso Ferramentas</Title>
