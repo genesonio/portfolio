@@ -1,4 +1,4 @@
-import { createStyles, rem } from "@mantine/core"
+import {createStyles, rem} from "@mantine/core"
 
 export const HEADER_HEIGHT: string = rem(80)
 

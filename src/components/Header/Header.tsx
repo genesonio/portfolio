@@ -1,4 +1,4 @@
-import { useState } from "react"
+import {useState} from "react"
 
 import {
   Burger,
@@ -8,18 +8,18 @@ import {
   Paper,
   Transition
 } from "@mantine/core"
-import { useDisclosure } from "@mantine/hooks"
+import {useDisclosure} from "@mantine/hooks"
 
-import useStyles, { HEADER_HEIGHT } from "./Header.styles"
+import useStyles, {HEADER_HEIGHT} from "./Header.styles"
 
 interface HeaderResponsiveProps {
-  links: { link: string; label: string }[]
+  links: {link: string; label: string}[]
 }
 
-const HeaderResponsive = ({ links }: HeaderResponsiveProps) => {
-  const [opened, { toggle, close }] = useDisclosure(false)
+const HeaderResponsive = ({links}: HeaderResponsiveProps) => {
+  const [opened, {toggle, close}] = useDisclosure(false)
   const [active, setActive] = useState(links[0]?.label)
-  const { classes, cx } = useStyles()
+  const {classes, cx} = useStyles()
 
   const items = links.map(link => (
     <a
