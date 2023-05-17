@@ -42,7 +42,7 @@ Para executar o projeto, é necessário ter o Node.js instalado. Em seguida, exe
 
 ``` bash
 # Clonar o repositório
-git clone [https://github.com/genesonio/portfolio.git](https://github.com/genesonio/portfolio.git)
+git clone https://github.com/genesonio/portfolio.git
 
 # Acessar a pasta do projeto
 cd portfolio
